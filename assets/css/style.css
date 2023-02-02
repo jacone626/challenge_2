@@ -115,20 +115,21 @@ main{
   border-width: 5px;
   height: 200px;
   width: 400px;
-  margin: 10px
+  margin: 10px;
+  opacity: .65;
 }
 
 #large-img{
   height: 400px;
-  width: 835px;
-}
-.regular-img{
-  height: 100px;
+  width: 850px;
 }
 
-.image-text {
+.caption figcaption {
   background-color: lightblue;
   padding: 10px;
+  position: absolute;
+  bottom: 10%;
+  left: 1.2%;
 }
 
 .image-text h3{
@@ -138,6 +139,11 @@ main{
 .image-text p{
   font-size: 12px;
 }
+
+.caption{
+  position: relative;
+}
+
 
 .contact{
   margin-bottom: 20px;
@@ -170,5 +176,13 @@ main{
 
 li{
   display: inline-block;
-  padding: 0 50px 0 150px
+  padding: 0 50px 0 150px;
+}
+
+li a{
+  color:rgb(100, 100, 170);
+}
+
+.images img:hover{
+  opacity: 1;
 }
