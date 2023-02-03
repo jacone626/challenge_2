@@ -1,4 +1,4 @@
-# Challenege 2 Assignemnt
+# Portfolio Website
 
 ## Description
 This Portfolio website was created to showcase my current work and give a little detail about my background. THe first section is infromation on my background and why I chose to pursue coding. In the next section, there are links to some of my current projects. The final section provides my contact information as well as  a link to my personal github account, which contains additional projects.
