@@ -80,7 +80,6 @@ main{
 
 .work{
   margin-bottom: 20px;
-  display: flex;
 }
 
 .work h1{
@@ -100,10 +99,11 @@ main{
 }
 
 .images{
-  padding: 20px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  padding: 20px;
+  flex: 0 0 400px;
   position: relative;
 }
 
@@ -145,7 +145,7 @@ main{
   position: absolute;
   bottom: 20%;
   left: 2.6%;
-}
+} 
 
 .image-text h3{
   margin-bottom: 8px;
@@ -205,11 +205,25 @@ li a{
   padding-left: 5%;
   font-size: 30px;
   border: none;
-}
+  }
 }
 
 @media screen and (max-width: 972px) {
   header nav {
-    display: none
-}
+    margin-bottom: 0px;
+  }
+
+  .images img{
+    height: 100px;
+    width: 200px;
+  }
+
+  #large-img{
+    height: 200px;
+    width: 400px;
+  }
+
+  #beach-pic, #subtitle{
+   display: none;
+  }
 }
