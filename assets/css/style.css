@@ -199,16 +199,8 @@ li a{
 
 @media screen and (max-width: 972px) {
   .contact h1, .work h1, .about h1 {
-  justify-content: center;
-  margin-right: 25px;
-  padding-right: 80px;
-  padding-left: 5%;
-  font-size: 30px;
-  border: none;
-  }
-}
+  border: none;}
 
-@media screen and (max-width: 972px) {
   header nav {
     margin-bottom: 0px;
   }
@@ -225,5 +217,9 @@ li a{
 
   #beach-pic, #subtitle{
    display: none;
+  }
+
+  .contact ul{
+    display: inline-block;
   }
 }
