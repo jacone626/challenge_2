@@ -11,7 +11,7 @@ The webpage is designed with a header at the top that links down to the correspo
 
 Please note that this site has minimal resposiveness at this time and functions best at around 1400px in width. I have been attempting to make the site function better at different widths, but am struggling with the code and formatting. The picture below shows a view of the webpage on a laptop screen. 
 
-!["picture of webpage with header and first section called About Me"] (./assets/images/webpage-screenshot.png)
+![picture of webpage with header and first section called About Me](assets/images/webpage-screenshot.png)
 
 Below is a link to the active website:
 
