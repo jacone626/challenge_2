@@ -35,25 +35,20 @@ main{
   flex-direction: column;
 }
 
-.beach-photo{
-  position: relative;
-  margin-bottom: 10px;
+.personal-photo{
+  margin: 10px 10px;
+  display: flex;
+  justify-content: center;
 }
 
-#beach-pic{
-  height: 250px;
-  width: 100%;
+#personal-pic{
+  height: 30%;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2rem;
 }
 
-#subtitle{
-  position: absolute;
-  bottom: 10%;
-  right: 10%;
-  background-color: lightblue;
-  color: grey;
-  font-size: 28px;
-  padding: 10px;
-}
 
 .about{
   margin-bottom: 50px;
