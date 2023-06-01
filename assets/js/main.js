@@ -251,3 +251,30 @@
   new PureCounter();
 
 })()
+
+// Make picture disappear if not on homepage
+document.addEventListener('DOMContentLoaded', function() {
+  const links = document.querySelectorAll('.remove-pic-link');
+  const portfolioPic = document.querySelectorAll('#personal-image');
+
+  links.forEach(function(link) {
+    link.addEventListener('click', function(event) {
+      event.preventDefault(); 
+      
+      portfolioPic.forEach(function(picture) {
+        picture.style.display = 'none'; 
+      });
+    });
+  });
+});
+
+// Make pic reappear if click on home
+const homeLink = document.getElementById('picture-on');
+
+homeLink.addEventListener('click', function(event) {
+  event.preventDefault();
+  
+  const portfolioPic = document.getElementById('personal-image');
+
+  portfolioPic.removeAttribute('style');
+})
