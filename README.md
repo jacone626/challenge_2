@@ -17,7 +17,7 @@ Below is a link to the active website:
 https://jacone626.github.io/portfolio-website/
 
 ## Credits
-N/A
+BootstrapMade
 
 ## License
 Please refer to the license in the repo.
