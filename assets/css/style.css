@@ -895,7 +895,7 @@ section .container {
   transition: 0.3s;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a:hover {
+.portfolio .portfolio-links .portfolio-href:hover  {
   color: #63eda3;
 }
 
